@@ -1,0 +1,16 @@
+monjaraz Galicia Ricardo Adrian   
+
+eNumero = 0
+def multiplos(eNumero):   
+    if eNumero %3 == 0 :
+        print("fizz")
+    if eNumero %5==0:
+        print("buzz")
+    else:
+        print(eNumero)
+
+
+while(eNumero  <=100):
+    eNumero +=1
+    multiplos(eNumero-1)
+
