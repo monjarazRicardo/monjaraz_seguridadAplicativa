@@ -1,0 +1,8 @@
+eMultiplicador =1
+eNumero1 = 1
+
+while(eMultiplicador <=10):
+    for eNumero1 in range(11):
+        print(eNumero1, "*", eMultiplicador, eNumero1 * eMultiplicador)
+        
+    eMultiplicador +=1
