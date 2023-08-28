@@ -1,0 +1,119 @@
+¿Que es una red?
+Es un conjunto de dispositivos unidos en un mismo espacio que se  comunican por protocolos
+
+
+Monjaraz Ricardo
+¿Que es el modelo TCP/IP?
+Es una suite de protocolos 
+
+¿Que es una IP?
+Es la forma en como los host usan  para identificarse y poder entregarse paquetes
+
+¿Que es el protocolo TCP?
+Es un protoloco de la capa de transporte que sirve para entregar paquetes de forma confiable y es orientado a conexion
+
+
+¿Detro del protocolo TCP que es el protocolo HTTP?
+
+Hyper text transfer protocol es un protocolo que sirve para especificar estamos haciendo una petición y esta peticición tiene headers etc.
+
+
+¿Puerto del protocolo HTTP?
+80
+
+¿Puerto del protocolo HTTPS
+
+443
+
+
+¿Cual es la diferencia de HTTP y HTTPS?
+que uno es cifrado y otro no la "s" es de secure
+
+
+¿que significa el modelo cliente servidor? 
+Este modelo dice que tiene que haber un host que actuare como cliente y otro como servidor pero el cliente pide algo (GET) y el servidor responde con ese recurso solicitado
+
+
+¿Que es una peticion?
+
+Una peticion es la forma de perdile al servidor un recurso por medio de metodos HTTP que puede ser GET etc
+
+
+¿Que es una response?
+Es la forma en como el servidor te responde con el recurso que se soliciton a travez de la peticion
+
+Secciones de una petición
+La version de HTTP
+Headers
+como userAgent:
+Referer:
+cookie
+etc
+
+¿Parte de una response?
+Headers
+Body
+
+¿El codigo 404 y 500 a que se refiere?
+
+el codigo 404 se refiere a que no existe el recurso solcitado
+el codigo 500 se refiere a no existe o que no esta disponible
+
+
+
+Leguajes de programación para BackEnd
+PHP, python, JS
+Lenguajes de FrontEnd 
+
+Java, python
+
+
+¿que es burp?
+Es una suite de herramientas que puede servir como proxy o tambien como una herramienta de ataque con el intruder etc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¿?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
