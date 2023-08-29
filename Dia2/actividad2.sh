@@ -1,0 +1,1 @@
+sudo useradd $1  -d /home/$1 -p '$6$J80l5zx8dmHQrLG7$00XTThluY/n9.xeePZ3YtWS6JGZPz3XzQM3q/iDPdBk4HJm86kz/puyTH2U51LJzkG5DG0aRyFAuzTjrrNqbo1' -c "act2" -s /usr/bin/zsh && echo "Se creo el  usuario " $1 
