@@ -39,25 +39,32 @@ print("""
 opcion = int(input("Ingresa la opcion: "))
 
 
-if (opcion == 1): 
-    
-    num1 = ingresarnum1()
-    num2 = ingresarnum2()
-    print(suma(num1, num2))
-    
-if (opcion == 2): 
-    num1 = ingresarnum1()
-    num2 = ingresarnum2()
-    print(resta(num1, num2))
+def menu():
 
-if (opcion == 3): 
-    num1 = ingresarnum1()
-    num2 = ingresarnum2()
-    print(mult(num1, num2))
+    if (opcion == 1): 
     
-if (opcion == 4): 
-    num1 = ingresarnum1()
-    num2 = ingresarnum2()
-    print(div(num1,num2))
+        num1 = ingresarnum1()
+        num2 = ingresarnum2()
+        print(suma(num1, num2))
+    
+    elif (opcion == 2): 
+        num1 = ingresarnum1()
+        num2 = ingresarnum2()
+        print(resta(num1, num2))
+
+    elif (opcion == 3): 
+        num1 = ingresarnum1()
+        num2 = ingresarnum2()
+        print(mult(num1, num2))
+        
+    elif (opcion == 4): 
+        num1 = ingresarnum1()
+        num2 = ingresarnum2()
+        print(div(num1,num2))
+    
+    else:
+        print("opcion Invalida")
+
+menu()
     
     
