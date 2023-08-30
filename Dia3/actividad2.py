@@ -1,17 +1,16 @@
-def ingresarnum1(num1,num2):
+def ingresarnum1():
     num1 = int(input("ingresa el numero: "))
     
     
     return num1
 
-def ingresarnum2(num1,num2):
+def ingresarnum2():
     
     num2= int(input("Ingresa el numero 2: "))
     
     return num2
 
-num1 = ingresarnum1
-num2= ingresarnum2
+
 
 
 
@@ -41,14 +40,23 @@ opcion = int(input("Ingresa la opcion: "))
 
 
 if (opcion == 1): 
-
+    
+    num1 = ingresarnum1()
+    num2 = ingresarnum2()
     print(suma(num1, num2))
     
 if (opcion == 2): 
+    num1 = ingresarnum1()
+    num2 = ingresarnum2()
     print(resta(num1, num2))
 
 if (opcion == 3): 
+    num1 = ingresarnum1()
+    num2 = ingresarnum2()
     print(div(num1, num2))
     
 if (opcion == 4): 
+    num1 = ingresarnum1()
+    num2 = ingresarnum2()
     print(mult(num1, num2))
+    
