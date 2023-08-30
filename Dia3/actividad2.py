@@ -53,10 +53,11 @@ if (opcion == 2):
 if (opcion == 3): 
     num1 = ingresarnum1()
     num2 = ingresarnum2()
-    print(div(num1, num2))
+    print(mult(num1, num2))
     
 if (opcion == 4): 
     num1 = ingresarnum1()
     num2 = ingresarnum2()
-    print(mult(num1, num2))
+    print(div(num1,num2))
+    
     
